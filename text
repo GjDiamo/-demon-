@@ -1,0 +1,17 @@
+依赖："ganache-cli": "^6.1.6",以太坊节点仿真器软件，作用：测试环境
+     "mocha": "^5.2.0",作用：测试框架
+     "solc": "^0.4.24",作用：编译器
+     "truffle-hdwallet-provider": "0.0.5",作用：
+     "web3": "^1.0.0-beta.35"作用：强大的sdk(软件开发工具)
+      module.exports=result.contracts[':Inbox']；这个地方拿到的是AbI接口
+
+ 初始化：npm init (可以获得json文件，用以记录依赖添加)；
+ 框架结构：contracts->.sol智能合约；
+         test->.test.js测试文件；
+         compile 编译智能合约脚本；
+         deploy  部署脚本；
+         package.jason 依赖记录：
+
+
+
+ 必须记住的快捷键：alt+command+v;
